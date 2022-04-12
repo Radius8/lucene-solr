@@ -32,6 +32,16 @@ import java.util.Locale;
  */
 public final class Version {
 
+  public static final Version LUCENE_5_2_1 = new Version(5, 2, 1);
+  public static final Version LUCENE_5_3_1 = new Version(5, 3, 1);
+  public static final Version LUCENE_5_4_1 = new Version(5, 4, 1);
+  public static final Version LUCENE_5_5_0 = new Version(5, 5, 0);
+  public static final Version LUCENE_5_5_2 = new Version(5, 5, 2);
+  public static final Version LUCENE_5_5_4 = new Version(5, 5, 4);
+  public static final Version LUCENE_6_6_2 = new Version(6, 6, 2);
+  
+  
+  
   /** Match settings and bugs in Lucene's 6.0 release.
    * @deprecated (7.0.0) Use latest
    */
